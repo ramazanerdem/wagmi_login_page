@@ -7,7 +7,7 @@ import Register from './pages/Register'
 
 function App() {
   const [signBool, setSignBool] = useState(true)
-  const [passwordShown, setPasswordShown] = useState(true)
+  const [passwordShown, setPasswordShown] = useState(false)
   return (
     <>
       <div className="App">
