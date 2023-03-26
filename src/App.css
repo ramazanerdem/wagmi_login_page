@@ -9,11 +9,11 @@
   width: 350px;
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .App {
     width: 300px;
   }
-} */
+}
 
 /* Logo */
 .wagmi-logo {
