@@ -1,0 +1,131 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  width: 350px;
+}
+
+/* Logo */
+.wagmi-logo {
+  width: 150px;
+}
+
+.form-header {
+  margin: 25px 0 35px 0;
+  font-size: 1.5rem;
+}
+
+/* Google Auth */
+
+.google-button {
+  color: #cccccc;
+}
+
+.google-logo {
+  width: 20px;
+  margin: 0 0.5rem 0 0;
+}
+
+.line-box {
+  display: flex;
+  color: grey;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.6rem;
+  margin-top: 15px;
+}
+
+.line-box span {
+  margin-top: -3px;
+}
+
+.line {
+  width: 150px;
+  height: 0;
+  border: 1px solid grey;
+  border-radius: 1px;
+}
+
+/* Form-section */
+
+form .name {
+  display: flex;
+  gap: 15px;
+}
+
+.input-header {
+  margin: 11px 0 5px 0;
+  text-align: start;
+  font-size: 0.8rem;
+  color: #cccccc;
+}
+
+/* Form checkbox side */
+
+.form-check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-check .left {
+  display: flex;
+  align-items: center;
+}
+
+.form-check input {
+  width: 12px;
+  margin-right: 5px;
+}
+
+.pass-box {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-color: #383838;
+  border-radius: 7px;
+}
+
+.pass-box .fa-regular {
+  position: absolute;
+  right: 15px;
+  cursor: pointer;
+}
+
+.form-check a,
+.form-check p {
+  color: grey;
+  font-size: 0.7rem;
+}
+
+/* Submit button */
+
+.submit-button {
+  margin-top: 25px;
+  background-color: rgba(255, 239, 95, 0.627);
+  color: black;
+  font-weight: 600;
+}
+
+.submit-button:hover {
+  box-shadow: rgba(255, 239, 95, 0.627) 0px 0px 10px;
+}
+
+/* Footer */
+.sign-footer {
+  font-size: 0.7rem;
+  margin-top: 12px;
+  color: grey;
+}
+
+.sign-footer span {
+  color: rgb(172, 172, 172);
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 5px;
+}
