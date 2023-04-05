@@ -37,7 +37,7 @@ a {
   font-size: 0.7rem;
 }
 a:hover {
-  color: rgba(255, 239, 95, 0.627);
+  /* color: rgba(255, 239, 95, 0.627); */
 }
 
 body {
@@ -86,5 +86,26 @@ button {
 }
 button:hover {
   /* border-color: rgba(255, 239, 95, 0.627); */
+  box-shadow: rgba(67, 67, 67, 0.694) 0px 0px 10px;
+}
+
+.submit-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  /* padding: 0.6em 1.2em; */
+  height: 40px;
+  font-size: 0.9em;
+  /* font-weight: 500; */
+  font-family: inherit;
+  background-color: #deff36;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.submit-button:hover {
   box-shadow: rgba(67, 67, 67, 0.694) 0px 0px 10px;
 }

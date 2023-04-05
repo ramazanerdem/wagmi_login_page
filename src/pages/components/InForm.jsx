@@ -8,15 +8,11 @@ const InForm = ({ passwordShown, setPasswordShown }) => {
   return (
     <Formik
       initialValues={{ email: '', password: '' }}
-      // onSubmit={handleSubmitForm}
-      onSubmit={(location.href = 'https://wagmi-login-page.netlify.app/')}
+      onSubmit={handleSubmitForm}
       validationSchema={validationSchema}
     >
       {({ values, touched, handleChange, handleSubmit, errors }) => (
-        <form
-        // onSubmit={handleSubmit}
-        // onSubmit={(location.href = 'http://localhost:5174/home')}
-        >
+        <form onSubmit={handleSubmit}>
           <p className="input-header">Email</p>
           <input
             name="email"
@@ -51,18 +47,20 @@ const InForm = ({ passwordShown, setPasswordShown }) => {
               <p>Remember me</p>
             </div>
             <div className="right">
-              <a href="#">Forgot Password ?</a>
+              <a href="#" className="a-forgot">
+                Forgot Password ?
+              </a>
             </div>
           </div>
 
-          <button
-            onClick={handleSubmit}
-            // onClick={(location.href = 'http://localhost:5174/home')}
+          <a
+            href="https://wagmi-gg.netlify.app/home"
+            // onClick={handleSubmit}
             type="submit"
             className="submit-button"
           >
             Sign In
-          </button>
+          </a>
         </form>
       )}
     </Formik>
